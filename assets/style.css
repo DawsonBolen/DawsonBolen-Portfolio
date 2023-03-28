@@ -13,27 +13,92 @@ header{
     height: 90px;
 }
 
+h2 {
+    font-family:'Roboto', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    font-family:'Roboto', sans-serif;
+}
 
 /*navigation bar styling */
+
 .navlinks {
     list-style: none;
     display: flex;
     width: 60%;
     margin: 0 auto;
     justify-content: space-between;
+    padding: 15px 0;
 }
 
-.navlinks li a {
+.navlinks li a:link {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: black;
+    color: #934276;
     display: block;
+    padding: 15px 10px;
 }
 
+.navlinks li a:hover {
+ background-color: #934276;
+ color: white;
+}
+
+.navlinks li a:active {
+    background-color: #93424d;
+    color: white;
+
+   }
+
+.small-button {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #769342;
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.small-button:hover{
+    background-color: #934276;
+}
+
+.small-button:active{
+    background-color: #93424d;
+}
+
+/*footer styling. Its last thing on page, but It's the default footer style for each page so i put it at the top for importance*/
+footer{
+    width: 100%;
+    background-color: #427693;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-contact{
+    display: flex;
+    padding: 20px 5px;
+    align-items: center;
+}
+
+.footer-contact p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+/*homepage*/
 
 #homehead {
-    background-image: url(images/homeheadpicture.png);
+    background-image: url(images/Homelargeheaderpicture.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -41,3 +106,166 @@ header{
     padding-top: 56.25%;  
 }
 
+
+#whatido {
+   background-color: #bddbe5; 
+   padding: 10px;
+}
+
+#whatido h2 {
+    font-family:'Roboto', sans-serif; 
+    font-weight:600;
+    font-size: 50px;
+    color: #934276;
+    text-align: center;
+    padding: 150px 0 5px 0;
+}
+
+.style-line-1 {
+    width: 30%;
+    height: 3px;
+    margin: 0 auto 100px auto;
+    background-color: #934276;
+    
+}
+
+#cards {
+    width: 85%;
+    margin: 10px auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+    padding: 20px;
+    background-color: white;
+}
+
+.card h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #934276;
+    padding: 10px 0;
+}
+
+.card p {
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 10px;
+    font-size: 12px;
+}
+
+.card:hover{
+    border: 3px solid #769342; 
+    box-shadow: 3px 2px 3px gray;
+}
+
+/*about me page*/
+
+#aboutmehead {
+    background-color: #934276;
+    width: 100%;
+    min-height: 400px;
+}
+
+#aboutmetop {
+    width: 60%;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutmerow2{
+    width: 500px;
+    color: white;
+}
+
+#skills-and-education {
+    display: flex;
+    width: 75%;
+    margin: 50px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-card {
+    min-width: 40%;
+    padding: 10px;
+   
+}
+
+
+
+.skills-card h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #427693;
+    font-size: 25px;
+    font-weight: 400;
+    float: right;
+    padding-right: 63%;
+    margin-top: 10px;
+}
+
+#myskll {
+    padding-right: 66%;
+}
+
+.skills-card img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.skills-card p {
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 0;
+    font-weight: 300;
+}
+
+/*projects*/
+
+
+/*contact*/
+#contact-top {
+background-color: #427693;
+width: 100%;
+text-align: center;
+}
+
+#contact-top h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+
+.line-style-2 {
+    width: 50%;
+    height: 3px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 75px;
+}
+
+
+#contactcards {
+width: 80%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+
+#contactcards h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+#contactcards p {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
