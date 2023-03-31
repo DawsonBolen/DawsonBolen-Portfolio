@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home</title>
+<title>Contact</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="keywords, Dawson, Bolen, Portfolio, Design, Web, Developement, UX" />
@@ -14,6 +14,7 @@
 </head>
 <body>
   <header>
+    <img src="assets/images/headerlogo.png" width="150px" height="42px">
     <nav>
         <ul class="navlinks">
             <li><a href="index.html">Home</a></li>
@@ -22,6 +23,7 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    <a href="contact.html"><button class="header-button">Contact</button></a>
   </header>
 
   <main>
@@ -48,15 +50,20 @@
      </div>
     </section>
 
-    <section id="email-form">
+    <section id="emailformbod">
+          <div id="email-form">
             <img src="assets/images/emailformicon.png" width="268px" height="263px">
-
-            <form>
+            <form class="contact-form">
                 <label>Name</label>
                 <input type="text">
                 <label>Email</label>
                 <input type="email">
+                <label>Subject</label>
+                <input type="text">
+                <textarea></textarea>
+                <button>Submit</button>
             </form>
+          </div>
     </section>
 
   </main>

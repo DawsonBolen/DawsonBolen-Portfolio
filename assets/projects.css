@@ -1,0 +1,213 @@
+
+#projects-top {
+    background-image: url(images/Project-images/gdtopback.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projects-top h1 {
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 65px;
+    padding: 100px 0 100px 25px;
+   
+}
+
+#drink-campaign-head {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#drink-campaign-head h1 {
+    color:#427693;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    padding-left: 20px ;
+}
+
+#drink-campaign-largepic {
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+
+#drink-campaign-main {
+    display: grid;
+    width:fit-content;
+    margin: 20px auto 40px auto;
+    grid-template: repeat(4, 200px) / repeat(5, 200px);
+    grid-gap: 10px;
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+
+.drink-card img {
+    width: 100%;
+    aspect-ratio:  1/1;
+    object-fit: cover;
+}
+
+
+#photo1 {
+    grid-column: 1 /5;
+    grid-row: 1/3;
+    background-color: #f4f2f2;
+}
+
+#photo5 {
+    grid-column: 4/6;
+}
+
+#otherwork {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.other-work-card {
+    border: 7px solid #427693;
+    max-width: 400px;
+    margin: 20px 0;
+    flex-grow: 1;
+}
+
+.other-work-card img {
+    width: 100%;
+    aspect-ratio:  1/1;
+    object-fit: cover;
+}
+
+.other-work-card-content p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.other-work-card-title {
+    background-color: #427693;
+    text-align: center;
+}
+
+.other-work-card-title h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+#lordofflies {
+    border: solid 1px black;
+}
+
+.work-button {
+    background-color: #769342;
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;margin-left: 5px;
+}
+
+.work-button:hover {
+    background-color:#934276;
+}
+
+.work-button:active {
+    background-color: #93424d;
+}
+
+#more-work {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+}
+
+#posters {
+    display: inline-flex;
+    flex-flow: column wrap;
+    height: 850px;
+    width: 480px;
+}
+
+
+#more-designs {
+ display: inline-flex;
+ width: 840px;
+ flex-flow: row wrap;
+ justify-content: space-between;
+}
+
+.more-design-card {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 1;
+}
+
+#web-comic {
+    background-image: url(images/Project-images/comicpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fall-cityrun {
+    background-image: url(images/Project-images/fallcityfunrunweb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#peaceofheart {
+    background-image: url(images/Project-images/cardweb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#albumcover {
+    background-image: url(images/Project-images/albumcoverweb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.more-design-card-content {
+    background-color: #427693;
+    opacity: 0.8;
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    
+}
+
+.more-design-card h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.more-design-card p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.more-design-card-content {
+    display: none;
+}
+
+.more-design-card:hover > .more-design-card-content {
+    display: block;
+}
+
+.more-design-card-content:hover {
+    opacity: 1;
+}
