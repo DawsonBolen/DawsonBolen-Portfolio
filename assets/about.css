@@ -59,6 +59,42 @@
     font-weight: 300;
 }
 
+
+
+/*the format has to be a lot different for both sections on smaller screen sizes*/
+@media screen and (max-width: 992px){
+    #aboutmetop {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    #aboutmerow2 {
+       margin-left: 20px;
+
+    }
+
+    .footer-bottom {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .skills-card h3 {
+        float: right;
+        padding-right: 30%;
+    }
+
+    #myskll {
+        padding-right: 45%;
+    }
+
+    #morskills {
+        padding-right: 40%;
+    }
+}
+
+
+/*the format has to be a lot different for both sections on smaller screen sizes*/
 @media screen and (max-width: 576px) {
     #aboutmetop {
         flex-direction: column;
@@ -75,11 +111,9 @@
         width: 90%;
         margin: 0 auto;
         text-align: center;
-    }
-
-    #aboutmerow2 {
         font-size: 12px;
     }
+
 
     #skills-and-education {
         width: 90%;
@@ -97,10 +131,13 @@
         padding-right: 60%;
     }
 
-    .skill-card-img {
-        padding-right: 50%
+    #morskills {
+        padding-right: 52%;
     }
 
-    
+    .footer-bottom {
+        position: relative;
+    }
+
 
 }

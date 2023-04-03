@@ -4,6 +4,11 @@
     text-align: center;
     }
     
+    main {
+        background-color: #e6e6e6;
+    }
+
+
     #contact-top h1 {
         font-family: 'Oswald', sans-serif;
         font-size: 50px;
@@ -38,6 +43,8 @@
         padding-bottom: 100px;
     }
     
+
+    /* the form does not actually work. I am excited to learn how to make something like this in future lessons. This is just to show somewhat of how I would design my contact page in the future */
     #emailformbod {
         background-color: #e6e6e6;
         padding: 100px 0 100px 0;
@@ -48,7 +55,7 @@
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
+        
         
     }
     
@@ -83,6 +90,31 @@
         margin-top: 5px;
     }
 
+
+    /*form was too wide for ipad mini or surface sized screens so Had to make some minor adjustments at this breakpoint */
+
+
+    @media screen and (max-width: 992px){
+        input,textarea {
+            width: 320px;
+        
+        }
+
+        #emailformbod {
+            padding: 300px 0;
+        }
+
+        #email-form {
+            width: 80%;
+        }
+
+      
+
+
+    }
+
+    /*the contact cards look better vertically on a smaller screen so I changed the flex-direction to column */
+
     @media screen and (max-width: 576px) {
         #contactcards {
             flex-direction: column;
@@ -100,9 +132,20 @@
             margin-top: 10px;
         }
 
+
+        #email-form {
+            flex-direction: column;
+        }
+
         input,textarea {
             width: 250px;
         }
+
+        #emailformbod {
+            padding: 100px 0;
+        }
+
+
 
 
     }

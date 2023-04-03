@@ -24,7 +24,7 @@
 }
 
 .style-line-1 {
-    width: 30%;
+    width: 300px;
     height: 3px;
     margin: 0 auto 50px auto;
     background-color:#427693;
@@ -67,7 +67,13 @@
     font-size: 12px;
 }
 
+
+/*the cards grow a border and box shadow when they are hovered over */
+
 .card:hover{
     border: 3px solid #769342; 
     box-shadow: 3px 2px 3px gray;
 }
+
+
+

@@ -59,8 +59,7 @@ p {
 
    }
 
-   /*mobile friendly nav bar */
-  
+
   
 
 
@@ -134,6 +133,14 @@ footer{
     padding-left: 10px;
 }
 
+
+@media screen and (max-width: 992px){
+    .navlinks li a {
+        padding: 20px; 
+    }
+}
+
+/*I tried to make a three bar hamburger menu and successfully designed it but realized you needed javascript to actually make it work. I hope to learn how to do so in the future */
 @media screen and (max-width: 576px) {
     .header-button {
         display: none;
@@ -153,6 +160,4 @@ footer{
         align-items: flex-start;
         padding: 0 20px;
     }
-
-
 }
